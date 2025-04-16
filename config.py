@@ -2,7 +2,11 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+# Try to load .env file but don't fail if it doesn't exist
+try:
+    load_dotenv()
+except Exception:
+    pass  # Silently continue if .env file is missing or can't be loaded
 
 # Default API keys (can be overridden in UI)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
