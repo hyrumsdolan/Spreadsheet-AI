@@ -11,6 +11,8 @@
 
 [Features](#-features) • [Setup](#-setup) • [Usage](#-usage) • [Examples](#-examples)
 
+[Deployed Streamlit Link](https://spreadsheetai.streamlit.app/)
+
 </div>
 
 ---
