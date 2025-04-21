@@ -67,9 +67,3 @@
 - **Content Generation**: Create descriptions from product attributes
 - **Data Classification**: Categorize entries based on text content
 - **Translation**: Convert text between languages
-
----
-
-<div align="center">
-Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
-</div> 
